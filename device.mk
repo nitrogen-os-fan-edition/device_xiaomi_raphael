@@ -111,10 +111,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-impl.raphael
 
-# Livedisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service-sdm
-
 # Prebuilt Packages
 PRODUCT_PACKAGES += \
     GCamGo
