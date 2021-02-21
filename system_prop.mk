@@ -53,6 +53,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.sys.sf.disable_blurs=1 \
     ro.sf.blurs_are_expensive=1
 
+# FOD
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.fingerprint.inscreen_disabled=false
+
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.com.google.ime.kb_pad_port_b=1
