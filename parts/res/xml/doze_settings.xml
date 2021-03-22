@@ -37,7 +37,6 @@
         <SwitchPreference
             android:defaultValue="false"
             android:disableDependentsState="true"
-            android:icon="@drawable/ic_pickup"
             android:key="gesture_raise_to_wake"
             android:summary="@string/raise_to_wake_gesture_summary"
             android:title="@string/raise_to_wake_gesture_title" />
