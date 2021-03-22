@@ -57,10 +57,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 
-# Camera
-PRODUCT_PACKAGES += \
-    Snap
-
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
