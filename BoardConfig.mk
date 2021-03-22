@@ -139,8 +139,6 @@ TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
-include device/nitrogen/sepolicy/qcom/sepolicy.mk
-include device/nitrogen/sepolicy/common/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Power
