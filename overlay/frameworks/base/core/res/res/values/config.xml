@@ -448,5 +448,8 @@
 
     <!-- Pocket Lock -->
     <bool name="config_pocketUseLightSensor">false</bool>
+
+    <!-- Screen off delay -->
+    <integer name="config_screen_off_delay">1</integer>
 </resources>
 
