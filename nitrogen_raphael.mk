@@ -10,14 +10,14 @@ $(call inherit-product, device/xiaomi/raphael/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/nitrogen/products/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := aosp_raphael
-
-PEX_BUILD_TYPE := OFFICIAL
+PRODUCT_NAME := nitrogen_raphael
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+SELINUX_IGNORE_NEVERALLOWS=true
