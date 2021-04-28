@@ -464,4 +464,7 @@
 
     <!-- Screen off delay -->
     <integer name="config_screen_off_delay">1</integer>
+
+    <!-- Show a custom view for FOD -->
+    <bool name="config_needCustomFODView">true</bool>
 </resources>
