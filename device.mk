@@ -143,10 +143,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.raphael
 
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    RemovePackages
-
 # Ril
 PRODUCT_PACKAGES += \
     android.hardware.radio@1.4
